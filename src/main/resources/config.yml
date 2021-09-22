@@ -8,8 +8,6 @@ database:
         host: 127.0.0.1
         #MySQL server port (default 3306)
         port: 3306
-        #Database name (NOTE! You need to create the database, then the plugin will create the tables.)
-        databaseName: 'mydatabase'
         #Tables name (the plugin will auto create it)
         dataTableName: 'eco_accounts'
         #User name
