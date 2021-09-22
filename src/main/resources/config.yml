@@ -8,14 +8,14 @@ database:
         host: 127.0.0.1
         #MySQL server port (default 3306)
         port: 3306
+        #Database Name
+        databaseName: 'MysqlEcoBridge'
         #Tables name (the plugin will auto create it)
-        dataTableName: 'eco_accounts'
+        dataTableName: 'EcoAccounts'
         #User name
         user: 'admin'
         #User password
         password: 'cheesecake'
-        #SSL connection.
-        sslEnabled: false
     #This maintenance task runs async with a 2 min delay after the server starts.
     removeOldAccounts:
         #Enable or disable database clean up of old accounts. | (true or false)
